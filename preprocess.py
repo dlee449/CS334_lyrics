@@ -1,7 +1,7 @@
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 
-# Load the DataFrame with translated lyrics
+# Load the DataFrame
 df = pd.read_csv('spotify_songs.csv')
 
 # Initialize the SentenceTransformer model
